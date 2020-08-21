@@ -8,6 +8,7 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use('/', express.static(path.resolve(__dirname, 'public')));
 app.use('/products/', express.static(path.resolve(__dirname, 'public')));
 app.use('/products/:id', express.static(path.resolve(__dirname, 'public')));
 

@@ -1,0 +1,31 @@
+#app {
+
+}
+#upper-body {
+  padding: 24px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+  grid-auto-columns: minmax(100px, 500px);
+  background-color: #fff;
+}
+#main-carousel {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+#add-to-cart {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+#pdc-wrapper {
+  grid-column: span 2;
+  grid-row: 2;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  width: 90vw;
+}
+
+#reviews {
+
+}
