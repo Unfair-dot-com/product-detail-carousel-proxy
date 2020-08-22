@@ -1,0 +1,26 @@
+{
+  "name": "product-detail-carousel-proxy",
+  "version": "1.0.0",
+  "description": "Team Gray Proxy Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unfair-dot-com/product-detail-carousel-proxy.git"
+  },
+  "author": "E.K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unfair-dot-com/product-detail-carousel-proxy/issues"
+  },
+  "homepage": "https://github.com/Unfair-dot-com/product-detail-carousel-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
