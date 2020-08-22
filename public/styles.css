@@ -14,11 +14,13 @@
   grid-row: 1;
 }
 #add-to-cart {
+  width: 100%;
   max-width: 468px;
   grid-column: 2 / 2;
   grid-row: 1;
 }
 #pdc-wrapper {
+  width: 100%;
   grid-column: span 2;
   grid-row: 2;
   margin-left: auto;
@@ -28,5 +30,5 @@
 }
 
 #reviews {
-
+  width: 100%;
 }
